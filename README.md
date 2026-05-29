@@ -5,8 +5,11 @@ A local RAG-based study assistant built from scratch without LangChain. Users up
 ![Architecture Diagram](architecture.png)
 
 The flow reads as:
+
 •	Left side -> document processing path (upload -> chunk -> embed -> cache)
+
 •	Right side -> query answering path (question -> retrieve -> generate)
+
 •	Both paths meet at the chat window output, with the evaluator scoring every answer
 
 ## Requirements
