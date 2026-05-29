@@ -3,6 +3,7 @@ A local RAG-based study assistant built from scratch without LangChain. Users up
 ##Architecture diagram:
 
 ![Architecture Diagram](architecture.png)
+
 The flow reads as:
 •	Left side -> document processing path (upload -> chunk -> embed -> cache)
 •	Right side -> query answering path (question -> retrieve -> generate)
