@@ -1,5 +1,5 @@
 # RAG-based-study-assistant
-A local RAG-based study assistant built from scratch without LangChain. Users upload any PDF and ask questions via a chat interface — answers are grounded strictly in the uploaded document. Built with SentenceTransformers (all-MiniLM-L6-v2) for embeddings, FAISS for instant similarity retrieval, and Mistral via Ollama for generation. Chunk size was tuned through experimentation, settling on 10 sentences with 2 sentences of overlap. Includes a built-in faithfulness evaluator scoring each answer 0-10 using a second LLM call.
+A local RAG-based study assistant built from scratch without LangChain. Users upload any PDF and ask questions via a chat interface, answers are grounded strictly in the uploaded document. Built with SentenceTransformers (all-MiniLM-L6-v2) for embeddings, FAISS for instant similarity retrieval, and Mistral via Ollama for generation. Chunk size was tuned through experimentation, settling on 10 sentences with 2 sentences of overlap. Includes a built-in faithfulness evaluator scoring each answer 0-10 using a second LLM call.
 ##Architecture diagram:
 
 ![Architecture Diagram](architecture.png)
