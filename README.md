@@ -38,3 +38,7 @@ python -c "import nltk; nltk.download('punkt')"
 
 ### 5. Run the app
 streamlit run app.py
+## Demo
+
+![Demo](app.png)
+
